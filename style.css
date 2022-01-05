@@ -8,6 +8,7 @@ h1 {
     justify-content: space-around;}
 
 .page-header {visibility:hidden;}
+
 ul.nav{
     margin-left: 0px;
     padding-left: 0px;
@@ -42,20 +43,26 @@ ul.nav a:hover{
 .experience{
     display: flex;
     justify-content: space-around;
-}
-.personal{
-    display: flex;
-    justify-content: space-around;
+
 }
 .education{
     display: flex;
     justify-content: space-around;
+    margin: 0 -50px;
 }
-.footer {
-    display: inline;
-    bottom : 0;
-    height:60px;
-    margin-top : 40px;
-    text-align: center ;
-    font-size: 10px ;
+.personal{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -5px;
+}
+
+
+ul.footer {
+    list-style: none;
+}
+span {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    padding-top: 20px;
 }
