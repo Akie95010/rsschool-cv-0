@@ -1,1 +1,61 @@
-h1 { color: midnightblue; }
+body {
+    background-color: mistyrose;
+    }
+
+h1 {
+    color: maroon;
+    display: flex;
+    justify-content: space-around;}
+
+.page-header {visibility:hidden;}
+ul.nav{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li {
+    float: left;
+}
+ul.nav a {
+    display: block;
+    width: 10em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+ul.nav a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+.skils{
+    display: flex;
+    justify-content: space-around;
+}
+.experience{
+    display: flex;
+    justify-content: space-around;
+}
+.personal{
+    display: flex;
+    justify-content: space-around;
+}
+.education{
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    display: inline;
+    bottom : 0;
+    height:60px;
+    margin-top : 40px;
+    text-align: center ;
+    font-size: 10px ;
+}
